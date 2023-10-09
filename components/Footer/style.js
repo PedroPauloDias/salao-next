@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-width: 100vw;
-background-color: #b69d8f;
+background-color: #e5969c;
 margin-top: 15px ;
 display:  flex;
 align-items: center;
@@ -12,8 +11,6 @@ gap:250px;
 
 `
 export const ContainerInfo = styled.div`
-
-
 
 `
 export const ContainerText = styled.div`
@@ -62,8 +59,7 @@ padding-top:30px;
 margin-bottom: 20px;
 `
 export const ContainerCopy = styled.div`
-width: 100vw;
-background-color: #b69d8f;
+background-color: #e5969c;
 display:  flex;
 align-items: center;
 justify-content: center;

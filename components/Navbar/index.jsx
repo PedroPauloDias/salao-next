@@ -2,14 +2,15 @@ import React from 'react'
 import Link from "next/Link"
 import * as S from "../Navbar/style"
 import Image from 'next/image'
-
+import logo from '../../public/images/logoMs.png'
 export default function Navbar({ acao }) {
 
 
   return (
     <S.Container color={acao ? '#ff0099' : ''} >
-
-      <Image src='/image/logoMs.png' width={50} height={50} />
+      <S.ContainerImg>
+      <Image src={logo} alt='logo da empresa' width={45} height={45} />
+        </S.ContainerImg>
 
       <ul>
         <li>

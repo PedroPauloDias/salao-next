@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 height: 70px;
-width: 95.3%;
 display: flex;
 align-items: center;
 justify-content: flex-start;
@@ -11,8 +10,8 @@ color: #fff;
 position: relative;
 margin-top: -10px;
 
-
-background: ${(props) => (props.color ? props.color : "transparent")};
+background-color: transparent;
+//background: ${(props) => (props.color ? props.color : "transparent")};
 z-index:1000;
 transition: .8s;
 
@@ -54,13 +53,16 @@ li{
 
  
 `
-export const ContainerImg = styled.img`
+export const ContainerImg = styled.div`
 height:50px;
-border-radius: 50px;
+
 margin-left: 20px;
 padding: 10px;
 
-  
+  img {
+    border-radius: 50%;
+    margin-top: 5px;
+  }
 
 `
 
