@@ -1,10 +1,10 @@
 
 import Booking from '../../components/Booking';
-import Form from '../../components/form'
 import Address from '../../components/Address'
 import styled from 'styled-components'
 
 import Layout from '../../components/Layout';
+import Formulario from '../../components/Formulario';
 
 const Contact = () => {
 
@@ -30,7 +30,7 @@ const Contact = () => {
 
         <Container>
           <Booking />
-          <Form />
+          <Formulario/>
           <Address />
         </Container>
       </Layout>
