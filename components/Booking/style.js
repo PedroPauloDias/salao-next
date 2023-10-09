@@ -9,14 +9,14 @@ align-items: center;
 justify-content: center;
 gap: 5px;
 margin-top: 20px;
-background: rgb(209,32,136);
-background: linear-gradient(64deg, rgba(209,32,136,1) 45%, rgba(255,0,153,1) 88%);
-border-radius: 6px;
+background: #f887a8;
+background: linear-gradient(64deg, #be6c97 30%, #f887a8 88%);
+border-radius: 10px;
 color: #fff;
 box-shadow: 0px  2px 5px #000;
 `
 export const ContainerText = styled.h2`
-font-size: 18px;
+font-size: 20px;
 font-weight: bold;
 margin-top: 20px;
 `
@@ -27,7 +27,7 @@ margin:0;
 display:  flex;
 flex-direction: column;
 align-items: start;
-font-size: 20px;
+font-size: 15px;
 font-weight: bold;
 color: white;
 
@@ -69,14 +69,15 @@ cursor: pointer;
 background-color: #94004e;
 color: #fff;
 border: unset;
-transition: .5s;
+transition: .7s;
 margin: auto;
 margin-top:65px;
+border-radius:10px;
+
 
 
 &:hover {
   background-color: rgba(209,32,136,1);
-  border: 1px solid #fff;
   color:#fff;
 
 }

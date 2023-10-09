@@ -34,6 +34,7 @@ const Booking = ({ reserveData, handleSubmit }) => {
   return (
     <form onSubmit={submit}>
       <S.Container>
+
         <S.ContainerText>
           Agende seu Horário
         </S.ContainerText>

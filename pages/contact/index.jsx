@@ -2,38 +2,45 @@
 import Booking from '../../components/Booking';
 import Form from '../../components/form'
 import Address from '../../components/Address'
+import styled from 'styled-components'
 
-import styled from "styled-components"
-import * as S from "../../styles"
+import Layout from '../../components/Layout';
 
+const Contact = () => {
 
- const Contact = () => {  
-
- // function createReserve(reserve) {
- //   fetch("http://localhost:5000/agendamentos", {
+  // function createReserve(reserve) {
+  //   fetch("http://localhost:5000/agendamentos", {
   //    method: "POST",
-//  headers: {
- //       'Content-type': 'application/json',
-//      },
-//      body: JSON.stringify(reserve)
-//})
-//      .then((resp) => resp.json())
- //     .then((data) => {
+  //  headers: {
+  //       'Content-type': 'application/json',
+  //      },
+  //      body: JSON.stringify(reserve)
+  //})
+  //      .then((resp) => resp.json())
+  //     .then((data) => {
   //      console.log(data)           
-         
+
   //    })
   //  .catch ((err) => console.log(err))  
-// }
-return (
-  <S.Container>
-    <Booking />
-    <Form />
-    <Address />
-  </S.Container>
-)
+  // }
+  return (
+    <>
+      <Layout>
+      <ContainerText>Entre em contato</ContainerText>
+
+        <Container>
+          <Booking />
+          <Form />
+          <Address />
+        </Container>
+      </Layout>
+    </>
+  )
 }
 
 export default Contact;
+
+
 
 
 
@@ -44,4 +51,10 @@ justify-content: space-around;
 margin: 30px 27px 20px 20px;
 
 
+`
+export const ContainerText = styled.h2`
+font-size: 40px;
+color: #73003D;
+margin: 20px ;
+text-align: center;
 `

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Modal from "../../components/Modal/index"
-import * as S from "./style"
-import { Header } from '../../components/Header'
+
+import Layout from '../../components/Layout'
 
 const Galeria = () => {
 
@@ -18,61 +18,65 @@ const Galeria = () => {
 
   return (
     <>
-      <S.ContainerText>GALERIA DE FOTOS</S.ContainerText>
+
+      <Layout>
+          <ContainerText>GALERIA DE FOTOS</ContainerText>
       {isModalVisible ? (
         <Modal setModalVisible={setModalVisible} src={ImgSrc}
          />        
       )
         : (
           <>
-            
+           
 
-          <S.Container>
+          <Container>
     
-            <S.ContainerImg>
-              <S.ContainerImgInd>   
-                <S.Img src="/images/acrilica.webp" alt=""
+            <ContainerImg>
+              <ContainerImgInd>   
+                <Img src="/images/acrilica.webp" alt=""
                   onClick={openModal} />
-              </S.ContainerImgInd>
-              <S.ContainerImgInd>
-                <S.Img src="/images/verde.jpg" alt=""
+              </ContainerImgInd>
+              <ContainerImgInd>
+                <Img src="/images/verde.jpg" alt=""
                  onClick={openModal}/>
-              </S.ContainerImgInd>
-              <S.ContainerImgInd>
-                <S.Img src="/images/unhas_coloridas_JW1Tkvp.webp" alt="" />
-              </S.ContainerImgInd>
-              <S.ContainerImgInd>
-                <S.Img src="/images/unha-gel-decorada.webp" alt="" />
-              </S.ContainerImgInd>
-              <S.ContainerImgInd>
-                <S.Img src="/images/moldado.webp" alt="" />
-              </S.ContainerImgInd>           
-              <S.ContainerImgInd>
-                <S.Img src="/images/esmaltacao.webp" alt="" />
-              </S.ContainerImgInd>
-              <S.ContainerImgInd>
-                <S.Img src="/images/fibradevidro.webp" alt="" />
-              </S.ContainerImgInd>
-              <S.ContainerImgInd>
-                <S.Img src="/images/gel.webp" alt="" />
-              </S.ContainerImgInd>
-              <S.ContainerImgInd>
-                <S.Img src="/images/manicure-pink-nail-art_269549-139.webp" alt="" />
-              </S.ContainerImgInd>
-            <S.ContainerImgInd>
-                <S.Img src="/images/inspiracoes-unhas-decoradas.webp" alt="" />
-              </S.ContainerImgInd>
-              <S.ContainerImgInd>
-                <S.Img src="/images/sh_unhas-com-peliculas_575363206-1-300x200.webp" alt="" />
-              </S.ContainerImgInd>
-              <S.ContainerImgInd>
-                <S.Img src="/images/unhas-simples.webp" alt="" />
-              </S.ContainerImgInd>
-            </S.ContainerImg>
+              </ContainerImgInd>
+              <ContainerImgInd>
+                <Img src="/images/unhas_coloridas_JW1Tkvp.webp" alt="" />
+              </ContainerImgInd>
+              <ContainerImgInd>
+                <Img src="/images/unha-gel-decorada.webp" alt="" />
+              </ContainerImgInd>
+              <ContainerImgInd>
+                <Img src="/images/moldado.webp" alt="" />
+              </ContainerImgInd>           
+              <ContainerImgInd>
+                <Img src="/images/esmaltacao.webp" alt="" />
+              </ContainerImgInd>
+              <ContainerImgInd>
+                <Img src="/images/fibradevidro.webp" alt="" />
+              </ContainerImgInd>
+              <ContainerImgInd>
+                <Img src="/images/gel.webp" alt="" />
+              </ContainerImgInd>
+              <ContainerImgInd>
+                <Img src="/images/manicure-pink-nail-art_269549-139.webp" alt="" />
+              </ContainerImgInd>
+            <ContainerImgInd>
+                <Img src="/images/inspiracoes-unhas-decoradas.webp" alt="" />
+              </ContainerImgInd>
+              <ContainerImgInd>
+                <Img src="/images/sh_unhas-com-peliculas_575363206-1-300x200.webp" alt="" />
+              </ContainerImgInd>
+              <ContainerImgInd>
+                <Img src="/images/unhas-simples.webp" alt="" />
+              </ContainerImgInd>
+            </ContainerImg>
 
-          </S.Container>
+            </Container>
+            
           </>
         )}
+        </Layout>
    
      
     </>
@@ -80,3 +84,50 @@ const Galeria = () => {
 }
 
 export default Galeria;
+
+import styled from "styled-components";
+
+export const ContainerText = styled.h2`
+font-size: 50px;
+color: #73003D;
+margin: 50px ;
+text-align: center;
+`
+
+export const Container = styled.div`
+width:95vw;
+margin:0 45px 0 35px;
+margin-top: 50px;
+
+
+`
+export const ContainerImg = styled.div`
+display: grid;
+grid-template-columns : 33%  33%    33%     ;
+gap:10px;
+`
+export const ContainerImgInd = styled.div`
+max-width:400px;
+max-height: 300px;
+margin-top: 10px;
+`
+
+export const Img = styled.img`
+height: 300px;
+width: 400px;
+object-fit: cover;
+cursor: pointer;
+filter: grayscale(1);
+transition: all linear .3s;
+
+&:hover {
+  
+  filter: grayscale(0);
+  transform: scale(1.02)
+ 
+  
+}
+
+
+
+`

@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import axios from 'axios'
 import { useState } from 'react'
-import * as S from "./style"
 import ReservationsCard from '../../components/ReservationsCard'
 
 export default function  Reservations()  {
@@ -39,7 +38,7 @@ export default function  Reservations()  {
     <>
       <h2>Agendamentos</h2>
       
-    <S.Container  >
+    <Container  >
     {
       myReservations.map((reservation) => {
         return (
@@ -54,8 +53,21 @@ export default function  Reservations()  {
           )
         })
       }
-    </S.Container>
+    </Container>
             </>
   )
 }
+
+
+import styled from "styled-components"
+
+export const Container = styled.ul`
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+gap: 45px;
+margin-left:  -20px;
+margin-right: 25px;
+margin-bottom: 50px;
+`
+
 
