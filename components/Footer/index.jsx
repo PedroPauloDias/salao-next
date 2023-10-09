@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from "./style"
 import { FacebookLogo, WhatsappLogo, InstagramLogo } from "phosphor-react"
-import Link from 'next/Link'
+import { Link } from 'next/navigation';
 
 const Footer = () => {
   return (

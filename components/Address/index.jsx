@@ -1,7 +1,8 @@
 import React from 'react'
 import * as S from './style'
 import { FacebookLogo, WhatsappLogo, InstagramLogo } from "phosphor-react";
-import { Link } from 'next/Link';
+import { Link } from 'next/navigation';
+
 
 
 const Address = () => {
@@ -32,9 +33,9 @@ const Address = () => {
         <p>Instagram</p>
       </S.ContainerText>
       <S.ContainerText>
-        <a href="/">
+        <Link href="/">
           <WhatsappLogo size={36} weight="light" />
-        </a>
+        </Link>
         <p>Whatsapp</p>
       </S.ContainerText>
     </S.Container>
