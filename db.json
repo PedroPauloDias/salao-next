@@ -1,0 +1,35 @@
+{
+  "agendamentos": [
+    {
+      "name": "fran",
+      "telefone": "2312312312312",
+      "servicos": {
+        "id": "UNHAS DE GEL",
+        "name": "UNHAS DE GEL"
+      },
+      "date": "2022-08-29",
+      "horario": "17:17",
+      "id": 3
+    }
+  ],
+  "servicos": [
+    {
+      "name": "FIBRA DE VIDRO"
+    },
+    {
+      "name": "ACRÍLICO MOLDADO"
+    },
+    {
+      "name": "UNHAS DE GEL"
+    },
+    {
+      "name": "PASTA ACRÍLICA"
+    },
+    {
+      "name": "BANHO EM GEL"
+    },
+    {
+      "name": "ESMALTAÇÃO EM GEL"
+    }
+  ]
+}

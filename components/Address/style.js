@@ -1,0 +1,76 @@
+import styled from "styled-components"
+
+export const Container = styled.div`
+height: 500px;
+width: 300px;
+display:  flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+background: rgb(209,32,136);
+background: linear-gradient(64deg, rgba(209,32,136,1) 45%, rgba(255,0,153,1) 88%);
+border-radius: 6px;
+color: #fff;
+box-shadow: 0px  2px 5px #000;
+
+`
+export const ContainerTitle = styled.h2`
+font-size: 28px;
+font-weight: bold;
+margin-top: 40px;
+`
+export const ContainerContent = styled.div`
+display:  flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+
+
+span{
+  color: #fff;
+font-size: 20px;
+font-weight: bold;
+}
+
+
+`
+
+export const ContainerText = styled.div`
+display:  flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: 10px;
+margin-left: -80px;
+
+
+span{
+  color: #fff;
+font-size: 20px;
+font-weight: bold;
+}
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+   font-size: 15px;
+
+  &:hover {
+   
+    color: #ffCCff;
+  }
+
+
+}
+
+
+
+`
+
+
+
+
+
