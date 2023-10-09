@@ -4,7 +4,7 @@ import Address from '../../components/Address'
 import styled from 'styled-components'
 
 import Layout from '../../components/Layout';
-import Formulario from '../../components/Formulario';
+import FormContact from '../../components/FormContact';
 
 const Contact = () => {
 
@@ -30,7 +30,7 @@ const Contact = () => {
 
         <Container>
           <Booking />
-          <Formulario/>
+          <FormContact />
           <Address />
         </Container>
       </Layout>

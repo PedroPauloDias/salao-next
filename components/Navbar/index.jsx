@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'next/navigation';
+import  Link  from 'next/link';
 import * as S from "../Navbar/style"
 import Image from 'next/image'
 import logo from '../../public/images/logoMs.png'

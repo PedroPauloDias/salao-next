@@ -2,10 +2,7 @@ import React from 'react'
 
 import * as S from "./style"
 
-const Formulario = () => {
- 
-
-
+const FormContact = () => {
   return (
     <>
       <form action="https://formsubmit.co/pedroppld@gmail.com" method="POST">
@@ -37,4 +34,4 @@ const Formulario = () => {
   )
 }
 
-export default Formulario
+export default FormContact;
