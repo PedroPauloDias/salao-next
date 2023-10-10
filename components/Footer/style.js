@@ -8,6 +8,18 @@ align-items: center;
 justify-content: center;
 gap:250px;
 
+@media (max-width: 760px){
+gap: 5px;
+flex-direction: column;
+align-items: start;
+padding: 10px;
+}
+
+@media (max-width: 1400px){
+gap:15px;
+justify-content: space-around;
+}
+
 
 `
 export const ContainerInfo = styled.div`
@@ -21,6 +33,10 @@ justify-content: start;
 span{
   color: #fff;
 font-size: 30px;
+
+@media (max-width: 1400px){
+  font-size: 25px;
+}
 }
 
 p {

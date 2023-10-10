@@ -12,6 +12,12 @@ margin-left: 20px;
 
 
 
+@media (max-width: 1400px){
+
+  padding: 10px;
+
+}
+
 
 `
 export const Title = styled.h2`
@@ -26,9 +32,9 @@ export const TestContainer = styled.div`
 max-width: 300px;
 margin: 10px  ;
 margin-left: 40px;
-backdrop-filter:  blur(5px);
- 
-
+backdrop-filter: blur(20px);
+background: rgb(209,131,137);
+background: linear-gradient(160deg, rgba(209,131,137,1) 0%, rgba(245,201,198,1) 100%);
 
 span {
 color:#fff;
@@ -52,6 +58,9 @@ justify-content: space-around;
 background-color: transparent;
 border-radius: 10px;
 
+
+
+
 `
 
 
@@ -64,3 +73,13 @@ border-radius: 50%;
 
 `
 
+export const ContainerStars = styled.div`
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+margin-top: 10px;
+
+
+`
