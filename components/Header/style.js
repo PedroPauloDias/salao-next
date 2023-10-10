@@ -1,12 +1,9 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  height:100%;
-img{
+`
+export const BannerImage = styled.img`
+  width:100%;
   object-fit: cover;
   background-repeat: no-repeat;
-}
-
-
-
-`
+  `

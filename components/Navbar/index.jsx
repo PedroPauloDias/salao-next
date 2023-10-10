@@ -5,6 +5,7 @@ import  Link  from 'next/link';
 import * as S from "./style"
 import Image from 'next/image'
 import logo from '../../public/images/logoMs.png'
+import { MenuMobile } from '../MenuMobile';
 
  const Navbar = ({ acao }) =>{
 
@@ -15,7 +16,7 @@ import logo from '../../public/images/logoMs.png'
       <Image src={logo} alt='logo da empresa' width={45} height={45} />
         </S.ContainerImg>
 
-      <ul>
+      <S.ContainerLinks>
         <li>
           <Link href="/">
             <p>Home</p>
@@ -41,7 +42,8 @@ import logo from '../../public/images/logoMs.png'
             <p>Agendamentos</p>
           </Link>
         </li>
-      </ul>
+      </S.ContainerLinks>
+        <MenuMobile />
     </S.Container>
   )
 }
