@@ -30,17 +30,17 @@ export const MenuMobile = () => {
             <S.Link href="/">Home</S.Link>
           </S.ListLink>
           <S.ListLink>
-            <S.Link href="/atendimento">Serviços</S.Link>
+            <S.Link href="/services">Serviços</S.Link>
           </S.ListLink>
           <S.ListLink>
-            <S.Link href="/about">Sobre mim</S.Link>
+            <S.Link href="/galeria">Galeria</S.Link>
           </S.ListLink>
 
               <S.ListLink>
-            <S.Link href="/info">Informacões</S.Link>
+            <S.Link href="/contact">Contato</S.Link>
           </S.ListLink>
           <S.ListLink>
-            <S.Link href="https://wa.me/5515996042007" target="_blank">Whatsapp</S.Link>
+            <S.Link href="https://wa.me/5515994202207" target="_blank">Whatsapp</S.Link>
           </S.ListLink>
             </S.ContainerLink>
             </S.ContainerMenu>
