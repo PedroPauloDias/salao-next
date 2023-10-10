@@ -1,9 +1,11 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+
+height:100%;
 max-width: 1280px;
 display: flex;
-margin-top: 100px;
+margin-top: 950px;
 gap: 15px;
 
 
@@ -14,6 +16,7 @@ gap: 15px;
 @media (max-width: 1400px){
 flex-direction: column-reverse;
 padding: 0  15px;
+margin-top: 1000px;
 }
 
 `
