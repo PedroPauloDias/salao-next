@@ -25,8 +25,7 @@ const Select = ({  handleChange, value }) => {
     <S.Container>
       <label htmlFor="">Serviço</label>
       <S.InputSelect
-        name="name"
-        
+        name="name"        
         onChange={handleChange}
        >
       <option >Selecione uma opção</option>

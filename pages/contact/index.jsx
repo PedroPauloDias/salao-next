@@ -53,6 +53,19 @@ justify-content: space-around;
 margin: 30px 27px 20px 20px;
 
 
+@media (max-width: 760px){
+   flex-direction: column;
+   align-items;
+justify-content: center ;
+margin: 0; 
+
+  }
+  
+  @media (max-width: 1400px){
+
+  }
+
+
 `
 export const ContainerText = styled.h2`
 font-size: 40px;

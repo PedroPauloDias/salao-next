@@ -14,11 +14,33 @@ background: linear-gradient(64deg, #be6c97 30%, #f887a8 88%);
 border-radius: 10px;
 color: #fff;
 box-shadow: 0px  2px 5px #000;
+
+
+@media (max-width: 760px){
+  width: 350px;
+  }
+  
+  @media (max-width: 1400px){
+
+  }
+
+
 `
 export const ContainerText = styled.h2`
 font-size: 20px;
 font-weight: bold;
 margin-top: 20px;
+
+
+@media (max-width: 760px){
+font-size: 25px;
+}
+  
+  @media (max-width: 1400px){
+
+  }
+
+
 `
 
 export const ContainerContent = styled.div`
@@ -31,11 +53,28 @@ font-size: 15px;
 font-weight: bold;
 color: white;
 
+@media (max-width: 760px){
+font-size: 20px;
+width: 200px;
+
+}
+
 `
 export const Input = styled.input`
 width: 190px;
 height: 15px;
 margin: 5px 0px;
+border-radius : 5px;
+border: none;
+
+
+@media (max-width: 760px){
+width: 220px;
+height: 20px;
+
+}
+
+
 
 `
 export const ContBooking = styled.div`
@@ -44,6 +83,12 @@ display:  flex;
 align-items: center;
 justify-content: center;
 gap:5px;
+
+@media (max-width: 760px){
+margin-left: 20px;
+margin-top: 10px;
+}
+
 
 
 div{
@@ -58,6 +103,13 @@ export const InputDate = styled.input`
 width: 90px;
 height: 15px;
 margin: 10px auto;
+
+
+@media (max-width: 760px){
+width: 105px;
+height: 20px;
+
+}
 
 `
 
