@@ -103,8 +103,7 @@ margin-top: 50px;
 
 
 @media (max-width: 760px){
-  margin: 0 auto;
-  
+  margin: 0;
   }
   
   @media (max-width: 1400px){
@@ -121,16 +120,24 @@ padding: 0 10px;
 gap:10px;
 
 
-
-@media (max-width: 760px){
-  grid-template-columns : auto;
-  }
-  
-  @media (max-width: 1400px){
-    grid-template-columns : auto auto;
+@media (min-width: 370px){
+    grid-template-columns : auto ;
     align-items: center;
     justify-content: space-between;
+  gap:15px;
+  }
 
+  @media (min-width: 760px){
+    grid-template-columns : auto auto ;
+    align-items: center;
+    justify-content: space-between;
+  gap:15px;
+  }
+  
+  @media (min-width: 1400px){
+    grid-template-columns :   auto auto auto;
+    align-items: center;
+    justify-content: space-between;
   gap:15px;
   }
 
