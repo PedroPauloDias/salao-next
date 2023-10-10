@@ -120,7 +120,7 @@ padding: 0 10px;
 gap:10px;
 
 
-@media (min-width: 370px){
+@media  (max-width: 759px){
     grid-template-columns : auto ;
     align-items: center;
     justify-content: space-between;
@@ -156,9 +156,7 @@ cursor: pointer;
 filter: grayscale(1);
 transition: all linear .3s;
 
-@media (max-width: 760px){  
-  width: 410px;
-  }
+
 &:hover {
   
   filter: grayscale(0);
