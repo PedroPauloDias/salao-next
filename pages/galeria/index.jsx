@@ -97,31 +97,61 @@ text-align: center;
 `
 
 export const Container = styled.div`
-width:95vw;
-margin:0 45px 0 35px;
+width:100%;
+margin:0 auto;
 margin-top: 50px;
 
+
+@media (max-width: 760px){
+  margin: 0 auto;
+  
+  }
+  
+  @media (max-width: 1400px){
+    margin: 0 auto;
+  }
 
 `
 export const ContainerImg = styled.div`
 display: grid;
-grid-template-columns : 33%  33%    33%     ;
+grid-template-columns : auto auto auto  ;
+align-items: center;
+justify-content: space-around;
+padding: 0 10px;
 gap:10px;
+
+
+
+@media (max-width: 760px){
+  grid-template-columns : auto;
+  }
+  
+  @media (max-width: 1400px){
+    grid-template-columns : auto auto;
+    align-items: center;
+    justify-content: space-between;
+
+  gap:15px;
+  }
+
+
 `
 export const ContainerImgInd = styled.div`
-max-width:400px;
-max-height: 300px;
+height: 300px;
 margin-top: 10px;
 `
 
 export const Img = styled.img`
 height: 300px;
-width: 400px;
+width: 100%;
 object-fit: cover;
 cursor: pointer;
 filter: grayscale(1);
 transition: all linear .3s;
 
+@media (max-width: 760px){  
+  width: 410px;
+  }
 &:hover {
   
   filter: grayscale(0);
