@@ -1,7 +1,6 @@
+'use client'
+
 import React from 'react'
-import { Header } from '../../components/Header';
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
 import Layout from '../../components/Layout';
 
 
@@ -151,7 +150,7 @@ span {
 p{
   width: 250px;
   text-align: center;
-  justify-text: justify;
+  text-align: justify;
   color: #fff;
   
   

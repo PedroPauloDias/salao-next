@@ -1,3 +1,5 @@
+'use client'
+
 
 import Booking from '../../components/Booking';
 import Address from '../../components/Address'

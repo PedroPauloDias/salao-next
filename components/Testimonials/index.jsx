@@ -34,7 +34,7 @@ const Testimonials = () => {
         <S.TestContainer>
           <S.TContainer>
             <div>
-              <S.Photo src="/images/juliana.jpg" />
+              <S.Photo src="/images/juliana.jpg" alt='foto de uma mao feita ' />
             </div>
             <div>
               <span>Juliana B.</span>
@@ -49,7 +49,7 @@ const Testimonials = () => {
         <S.TestContainer>
           <S.TContainer>
             <div>
-              <S.Photo src="/images/ingrid.jpg" />
+              <S.Photo src="/images/ingrid.jpg" alt='foto de uma mao feita ' />
             </div>
             <div>
               <span>Ingrid Souza.</span>
@@ -63,7 +63,7 @@ const Testimonials = () => {
         <S.TestContainer>
           <S.TContainer>
             <div>
-              <S.Photo src="/images/marina.jpg" />
+              <S.Photo src="/images/marina.jpg" alt='foto de uma mao feita '/>
             </div>
             <div>
               <span>Marina Pereira.</span>
@@ -77,7 +77,7 @@ const Testimonials = () => {
         <S.TestContainer>
           <S.TContainer>
             <div>
-              <S.Photo src="/images/tabata.jpg" />
+              <S.Photo src="/images/tabata.jpg" alt='foto de uma mao feita ' />
             </div>
             <div>
               <span>Tabata Silva.</span>
@@ -92,7 +92,7 @@ const Testimonials = () => {
         <S.TestContainer>
           <S.TContainer>
             <div>
-              <S.Photo src="/images/ingrid.jpg" />
+              <S.Photo src="/images/ingrid.jpg"  alt='foto de uma mao feita '/>
             </div>
             <div>
               <span>Francisca </span>
@@ -109,7 +109,7 @@ const Testimonials = () => {
             
           <S.TContainer>
             <div>
-              <S.Photo src="/images/juliana.jpg" />
+              <S.Photo src="/images/juliana.jpg" alt='foto de uma mao feita ' />
             </div>
             <div>
               <span>Judith B.</span>

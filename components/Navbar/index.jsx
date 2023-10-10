@@ -1,9 +1,12 @@
+'use client'
+
 import React from 'react'
 import  Link  from 'next/link';
-import * as S from "../Navbar/style"
+import * as S from "./style"
 import Image from 'next/image'
 import logo from '../../public/images/logoMs.png'
-export default function Navbar({ acao }) {
+
+ const Navbar = ({ acao }) =>{
 
 
   return (
@@ -43,3 +46,4 @@ export default function Navbar({ acao }) {
   )
 }
 
+export default Navbar

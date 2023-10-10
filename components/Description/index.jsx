@@ -1,4 +1,4 @@
-import React from 'react'
+'use client'
 import * as S from "./style"
 
 const Description = () => {
@@ -6,11 +6,11 @@ const Description = () => {
     <S.Container>     
       <S.ContainerImg>
         <S.DoubleImg>
-          <S.Img src="/images/unhas_coloridas_JW1Tkvp.webp" alt="" />
-          <S.Img src="/images/escura.webp" alt="" />
+          <S.Img src="/images/unhas_coloridas_JW1Tkvp.webp" alt='foto de uma mao feita ' />
+          <S.Img src="/images/escura.webp" alt='foto de uma mao feita ' />
         </S.DoubleImg>
         <div>
-          <S.Img2 src="/images/verde.jpg" alt="" />
+          <S.Img2 src="/images/verde.jpg" alt='foto de uma mao feita '/>
         </div>
       </S.ContainerImg>
       <S.ContainerText>
