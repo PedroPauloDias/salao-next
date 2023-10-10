@@ -9,13 +9,12 @@ margin: 15px;
 padding-left: 90px;
 padding-right: 60px;
 margin-left: 20px;
+border-radius: 10px;
 
 
 
 @media (max-width: 1400px){
-
   padding: 10px;
-
 }
 
 
@@ -35,18 +34,25 @@ margin-left: 40px;
 backdrop-filter: blur(20px);
 background: rgb(209,131,137);
 background: linear-gradient(160deg, rgba(209,131,137,1) 0%, rgba(245,201,198,1) 100%);
+border-radius: 10px;
+
+
+@media (max-width: 420px){
+  max-width: 275px;
+  padding: 5px;
+  margin: 0 2px 0 5px;
+}
 
 span {
 color:#fff;
 font-weight: bold;
-font-size:18px;
+font-size: 18px;
 }
 
 p {
   font-weight: bold;
   margin-right: 20px;
   color:#fff;
-
 }
 
 `

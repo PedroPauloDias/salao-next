@@ -56,6 +56,7 @@ export const DoubleImg = styled.div`
 display: flex;
 gap:10px;
 
+
 @media (max-width: 760px){
 }
 
@@ -68,16 +69,12 @@ min-width: 50%;
 @media (max-width: 760px){
         max-width: 50%;
         min-width: 48%;
-
-
 }
 
 @media (max-width: 1400px){
         max-width: 50%;
         min-width: 49%;
-
 }
-
 `
 export const Img2 = styled.img`
 height:200px;
