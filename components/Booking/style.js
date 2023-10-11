@@ -17,7 +17,6 @@ box-shadow: 0px  2px 5px #000;
 
 
 @media (max-width: 760px){
-  width: 350px;
   }
   
   @media (max-width: 1400px){
@@ -55,24 +54,19 @@ color: white;
 
 @media (max-width: 760px){
 font-size: 20px;
-width: 200px;
 
 }
 
 `
 export const Input = styled.input`
-width: 190px;
-height: 15px;
+width: 200px;
+height: 20px;
 margin: 5px 0px;
 border-radius : 5px;
 border: none;
 
 
-@media (max-width: 760px){
-width: 220px;
-height: 20px;
 
-}
 
 
 
@@ -84,10 +78,7 @@ align-items: center;
 justify-content: center;
 gap:5px;
 
-@media (max-width: 760px){
-margin-left: 20px;
-margin-top: 10px;
-}
+
 
 
 
@@ -100,16 +91,12 @@ div{
 
 `
 export const InputDate = styled.input`
-width: 90px;
-height: 15px;
+width: 95px;
+height: 20px;
 margin: 10px auto;
 
 
-@media (max-width: 760px){
-width: 105px;
-height: 20px;
 
-}
 
 `
 
@@ -124,7 +111,7 @@ border: unset;
 transition: .7s;
 margin: auto;
 margin-top:65px;
-border-radius:10px;
+border-radius:5px;
 
 
 

@@ -9,7 +9,7 @@ const Address = () => {
   return (<>
     <S.Container>
       <S.ContainerTitle>
-        Venha nos Visitar
+        <p>Venha nos Visitar</p>
       </S.ContainerTitle>
       <S.ContainerContent>
         <span>Endereço </span>

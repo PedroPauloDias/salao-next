@@ -12,7 +12,7 @@ const FormContact = () => {
           </S.ContainerText>
           <S.ContainerContent>
             <label htmlFor="name">Nome</label>
-            <S.Input type="text" name="name" placeholder="Digite o seu nome aqui" />
+            <S.Input type="text" name="name" placeholder="Digite o seu nome " />
           </S.ContainerContent>
           <S.ContainerContent>
             <label htmlFor="tel">Telefone</label>
@@ -24,7 +24,7 @@ const FormContact = () => {
           </S.ContainerContent>
           <S.ContainerContent>
             <label htmlFor="message">Mensagem</label>
-            <textarea placeholder=" Digite aqui sua mensagem" name="message" id="message" rows="5" cols="21"></textarea>
+            <S.TextArea placeholder=" Digite sua mensagem" name="message" id="message" rows="5" cols="21"></S.TextArea>
           </S.ContainerContent>
 
           <S.Button type="submit"></S.Button>

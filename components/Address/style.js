@@ -17,9 +17,9 @@ box-shadow: 0px  2px 5px #000;
 
 `
 export const ContainerTitle = styled.h2`
-font-size: 20px;
+font-size: 25px;
 font-weight: bold;
-margin-top: 40px;
+margin-top: 20px;
 `
 export const ContainerContent = styled.div`
 display:  flex;
@@ -30,7 +30,7 @@ justify-content: center;
 
 span{
   color: #fff;
-font-size: 20px;
+font-size: 18px;
 font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ margin-left: -80px;
 
 span{
   color: #fff;
-font-size: 20px;
+font-size: 18px;
 font-weight: bold;
 }
 

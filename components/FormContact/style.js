@@ -10,8 +10,8 @@ justify-content: center;
 margin: 0px auto;
 gap: 5px;
 margin-top: 20px;
-background: rgb(209,32,136);
-background: linear-gradient(64deg, rgba(209,32,136,1) 45%, rgba(255,0,153,1) 88%);
+background: #f887a8;
+background: linear-gradient(64deg, #be6c97 30%, #f887a8 88%);
 border-radius: 6px;
 color: #fff;
 box-shadow: 0px  2px 5px #000;
@@ -20,7 +20,7 @@ box-shadow: 0px  2px 5px #000;
 
 `
 export const ContainerText = styled.h2`
-font-size: 18px;
+font-size: 22px;
 font-weight: bold;
 margin-top: 10px;
 `
@@ -31,16 +31,30 @@ margin:0;
 display:  flex;
 flex-direction: column;
 align-items: start;
-font-size: 20px;
+font-size: 18px;
 font-weight: bold;
 color: white;
 
+label {
+  font-size: 16px;
+  margin: 5px 0;
+}
 
 
 `
 export const Input = styled.input`
-height: 15px;
+height: 20px;
+width: 200px;
 margin: 5px 0px;
+border-radius: 5px;
+border: none;
+
+
+&::placeholder {
+  font-size: 12px;
+  pading: 5px;
+margin-left: 5px;
+}
 
 `
 
@@ -54,16 +68,23 @@ color: #fff;
 border: unset;
 transition: .5s;
 margin-top: 20px;
+border-radius: 5px;
 
 
 
 &:hover {
   background-color: rgba(209,32,136,1);
-  border: 1px solid #fff;
   color:#fff;
 
 }
 
 `
+export const TextArea = styled.textarea `
+width: 200px;
+border-radius: 5px;
 
+&::placeholder {
+  font-size: 12px;
+}
+`
 
