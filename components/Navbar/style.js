@@ -3,16 +3,14 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 width : 100%;
-height: 70px;
+height: 90px;
 display: flex;
 align-items: center;
 justify-content: flex-start;
-color: #fff;
-position: relative;
+position: fixed;
 margin-top: -10px;
 
-background-color: transparent;
-//background: ${(props) => (props.color ? props.color : "transparent")};
+backdrop-filter: ${(props) => (props.color ? 'blur(20px)' : "")};
 z-index:1000;
 transition: .8s;
 
@@ -22,12 +20,11 @@ transition: .8s;
 `
 export const ContainerLinks = styled.ul`
 
-
   width:100%;
   display: flex;
   align-items: center;
   gap: 60px;
-  margin-left: 300px;
+  margin-left: 600px;
   margin-top: 15px;
 
   @media (max-width: 560px){
@@ -37,7 +34,7 @@ export const ContainerLinks = styled.ul`
 
 
   @media (max-width: 1400px){
-    margin-left: 20px;
+    margin-left: 120px;
     gap: 40px;
 
 }
@@ -65,8 +62,13 @@ li{
 
  a {
   text-decoration: none;
-  color: #990033;
+  color: ${(props) => (props.color ? props.color : "#fff")};
   font-weight: bold;
+  font-size: 35px;
+
+  @media (max-width: 1400px){
+font-size: 30px;
+}
  }
 
 

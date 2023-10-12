@@ -19,18 +19,18 @@ box-shadow: 0px  2px 5px #000;
 export const ContainerTitle = styled.h2`
 font-size: 25px;
 font-weight: bold;
-margin-top: 20px;
+margin-top: -40px;
 `
 export const ContainerContent = styled.div`
 display:  flex;
 flex-direction: column;
 align-items: flex-start;
 justify-content: center;
-
+margin-top:0px;
 
 span{
   color: #fff;
-font-size: 18px;
+font-size: 20px;
 font-weight: bold;
 }
 
@@ -39,11 +39,11 @@ font-weight: bold;
 
 export const ContainerText = styled.div`
 display:  flex;
-flex-direction: row;
+flex-direction: row ;
 align-items: center;
-justify-content: flex-start;
-gap: 10px;
-margin-left: -80px;
+justify-content: space-around;
+gap: 50px;
+margin-top: 20px;
 
 
 span{

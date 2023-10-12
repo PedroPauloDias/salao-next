@@ -20,7 +20,7 @@ box-shadow: 0px  2px 5px #000;
 
 `
 export const ContainerText = styled.h2`
-font-size: 22px;
+font-size: 25px;
 font-weight: bold;
 margin-top: 10px;
 `

@@ -50,7 +50,7 @@ export const Container = styled.div`
 display:  flex;
 align-items: center;
 justify-content: space-around;
-margin: 30px 27px 20px 20px;
+margin: 30px 27px 50px 20px;
 
 
 @media (max-width: 760px){
@@ -59,10 +59,14 @@ margin: 30px 27px 20px 20px;
 justify-content: center ;
 margin: 0; 
 
-  }
-  
-  @media (max-width: 1400px){
+}
 
+@media (max-width: 1400px){
+  flex-direction: column;
+  align-items;
+  justify-content: center ;
+  margin: 0; 
+  margin-bottom: 50px;
   }
 
 

@@ -1,18 +1,26 @@
-import React from 'react';
-import { FacebookLogo, WhatsappLogo, InstagramLogo } from "phosphor-react";
-import * as S from "./style";
+import { useEffect, useState } from 'react';
+import {WhatsappFloat} from "../WhatsappFloat"
 
-const WhatsappButton = ({active}) => {
+export const WhatsApp = () => {
+  const [showButton, setShowButton] = useState(false);  
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.pageYOffset > 50) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <S.Container >
-    <S.ContainerSvg>
-      <a href="https://wa.me/5515996042007?text=Boa%20Tarde%20Gostaria%20de%20mais%20informacoes%20sobre%20os%20seus%20Servicos%20e%20horarios%20" target="">
-          <WhatsappLogo color={active ? 'white' : 'transparent'} size={25} />
-       </a>
-      
-    </S.ContainerSvg>
-    </S.Container>
-  )
-}
+    <div>
+      {showButton && <WhatsappFloat />}       
+ 
+    </div>
+  );
+};
 
-export default WhatsappButton

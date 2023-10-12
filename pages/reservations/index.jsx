@@ -3,6 +3,7 @@ import axios from 'axios'
 import { useState } from 'react'
 import ReservationsCard from '../../components/ReservationsCard'
 
+
 export default function  Reservations()  {
   const [myReservations, setMyReservations] = useState([])
 
@@ -17,7 +18,6 @@ export default function  Reservations()  {
       })
   }, []);
   
-
   function RemoveReservation(id) {
     fetch(`http://localhost:5000/agendamentos/${id}`, {
       method: 'DELETE',
@@ -31,14 +31,11 @@ export default function  Reservations()  {
       .catch(err => console.log(err))
 }
 
-
-
-
   return (
     <>
       <h2>Agendamentos</h2>
       
-    <Container  >
+    <Container  >       
     {
       myReservations.map((reservation) => {
         return (

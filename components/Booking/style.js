@@ -26,9 +26,9 @@ box-shadow: 0px  2px 5px #000;
 
 `
 export const ContainerText = styled.h2`
-font-size: 20px;
+font-size: 25px;
 font-weight: bold;
-margin-top: 20px;
+margin-top: 15px;
 
 
 @media (max-width: 760px){
@@ -61,7 +61,7 @@ font-size: 20px;
 export const Input = styled.input`
 width: 200px;
 height: 20px;
-margin: 5px 0px;
+margin: 10px 0px;
 border-radius : 5px;
 border: none;
 
@@ -110,7 +110,7 @@ color: #fff;
 border: unset;
 transition: .7s;
 margin: auto;
-margin-top:65px;
+margin-top:75px;
 border-radius:5px;
 
 
