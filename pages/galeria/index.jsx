@@ -183,9 +183,12 @@ height: 300px;
 width: 100%;
 object-fit: cover;
 cursor: pointer;
-filter: grayscale(1);
 transition: all linear .3s;
 
+
+@media (min-width: 1400px){
+
+}
 
 &:hover {
   

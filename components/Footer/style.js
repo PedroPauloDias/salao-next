@@ -12,7 +12,7 @@ gap:250px;
 gap: 5px;
 flex-direction: column;
 align-items: start;
-padding: 10px;
+padding: 10px 20px;
 }
 
 @media (max-width: 1400px){
@@ -29,6 +29,8 @@ export const ContainerText = styled.div`
 display:  flex;
 align-items: center;
 justify-content: start;
+margin-left: 30px;
+
 
 span{
   color: #fff;
@@ -67,12 +69,16 @@ a {
 export const Title = styled.h3`
 color: #fff;
 font-size: 30px;
+margin-left: 30px;
+
 `
 export const TitleSocial = styled.h3`
 color: #fff;
 font-size: 30px;
 padding-top:30px;
 margin-bottom: 20px;
+margin-left: 30px;
+
 `
 export const ContainerCopy = styled.div`
 background-color: #e5969c;
