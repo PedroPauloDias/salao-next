@@ -1,10 +1,16 @@
 'use client'
 import * as S from "./style"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 const Description = () => {
+  AOS.init();
+
+  
+  
   return (
     <S.Container>     
-      <S.ContainerImg>
+      <S.ContainerImg data-aos="fade-right">
         <S.DoubleImg>
           <S.Img src="/images/unhas_coloridas_JW1Tkvp.webp" alt='foto de uma mao feita ' />
           <S.Img src="/images/escura.webp" alt='foto de uma mao feita ' />

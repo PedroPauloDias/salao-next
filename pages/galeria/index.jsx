@@ -2,10 +2,12 @@
 
 import React, { useState } from 'react'
 import Modal from "../../components/Modal/index"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import Layout from '../../components/Layout'
 
 const Galeria = () => {
+  AOS.init();
 
   const [isModalVisible, setModalVisible] = useState(false) 
  
@@ -34,15 +36,15 @@ const Galeria = () => {
           <Container>
     
             <ContainerImg>
-              <ContainerImgInd>   
+              <ContainerImgInd  >   
                 <Img src="/images/acrilica.webp" alt=""
                   onClick={openModal} />
               </ContainerImgInd>
-              <ContainerImgInd>
+              <ContainerImgInd >
                 <Img src="/images/verde.jpg" alt=""
                  onClick={openModal}/>
               </ContainerImgInd>
-              <ContainerImgInd>
+              <ContainerImgInd >
                 <Img src="/images/unhas_coloridas_JW1Tkvp.webp" alt="" />
               </ContainerImgInd>
               <ContainerImgInd>
@@ -183,10 +185,12 @@ height: 300px;
 width: 100%;
 object-fit: cover;
 cursor: pointer;
+filter: grayscale(0);
 transition: all linear .3s;
 
 
 @media (min-width: 1400px){
+  filter: grayscale(1);
 
 }
 
