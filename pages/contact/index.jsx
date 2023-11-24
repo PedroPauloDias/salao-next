@@ -55,7 +55,6 @@ margin: 30px 27px 50px 20px;
 
 @media (max-width: 760px){
    flex-direction: column;
-   align-items;
 justify-content: center ;
 margin: 0; 
 
@@ -63,7 +62,6 @@ margin: 0;
 
 @media (max-width: 1400px){
   flex-direction: column;
-  align-items;
   justify-content: center ;
   margin: 0; 
   margin-bottom: 50px;
@@ -76,4 +74,7 @@ font-size: 40px;
 color: #73003D;
 margin: 20px ;
 text-align: center;
+
+margin: 120px auto 30px auto;
+
 `

@@ -6,7 +6,7 @@ import Layout from '../../components/Layout';
 const services = () => {
   return (
     <>
-      <Layout>
+      <Layout>     
         <Container>
           <h2>Serviços</h2>
           <ContainerServices>
@@ -67,7 +67,7 @@ const services = () => {
           </ContainerServices>
         </Container>
       </Layout>
-    </>
+      </>
   )
 }
 
@@ -76,11 +76,15 @@ export default services;
 
 
 import styled from "styled-components"
+import Navbar from "../../components/Navbar";
 
 export const Container = styled.div`
-
+height:100%;
 max-width: 950px;
-margin: 50px auto;
+margin: 150px auto;
+
+
+
 
 @media (max-width: 760px){
 width: 90%;
@@ -90,7 +94,7 @@ margin: 0;
 
 @media (max-width: 1400px){
   max-width: 700px;
-margin: 0 auto;
+margin: 100px auto;
 }
 
 h2{
@@ -99,6 +103,7 @@ align-items: center;
 margin: 30px 0px;
 margin-left: 320px;
 color:#990033;
+
 
 
   @media (max-width: 760px){

@@ -92,23 +92,53 @@ import styled from "styled-components";
 export const ContainerText = styled.h2`
 font-size: 50px;
 color: #73003D;
-margin: 50px ;
 text-align: center;
+margin: 120px auto -50px auto;
+
+
+
 `
 
+
 export const Container = styled.div`
-width:100%;
-margin:0 auto;
-margin-top: 50px;
+height:100%;
+max-width: 950px;
+margin: 150px auto;
+
+
 
 
 @media (max-width: 760px){
-  margin: 0;
-  }
+width: 90%;
+padding: 0 5px;
+margin: 0; 
+}
+
+@media (max-width: 1400px){
+  max-width: 700px;
+margin: 100px auto;
+}
+
+h2{
+font-size:60px;
+align-items: center;
+margin: 30px 0px;
+margin-left: 320px;
+color:#990033;
+
+
+
+  @media (max-width: 760px){
+   font-size: 40px;
+   text-align: center;
+   margin-left: 0;
+}
   
   @media (max-width: 1400px){
-    margin: 0 auto;
-  }
+    font-size: 40px;
+
+ }
+}
 
 `
 export const ContainerImg = styled.div`

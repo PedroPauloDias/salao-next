@@ -8,7 +8,7 @@ display: flex;
 align-items: center;
 justify-content: flex-start;
 position: fixed;
-margin-top: -10px;
+margin: 0px 0px 30px 0px;
 
 backdrop-filter: ${(props) => (props.color ? 'blur(20px)' : "")};
 z-index:1000;

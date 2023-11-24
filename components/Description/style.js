@@ -9,9 +9,7 @@ margin: 100px 0px;
 gap: 15px;
 
 
-@media (max-width: 760px){
 
-}
 
 @media (max-width: 1400px){
 flex-direction: column-reverse;
@@ -25,15 +23,16 @@ export const ContainerText = styled.div`
 text-align: justify;
 line-height: 25px;
 padding: 15px;
-margin: 0px  ;
+margin: 30px  ;
 
 span{
   font-size: 50px;
   color: #990033;
 }
 
-@media (max-width: 760px){
+@media (max-width: 420px){
 
+        margin: 120px 0px;
 p{
 font-size:20px;
 }
